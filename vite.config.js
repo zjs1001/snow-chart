@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: './', // 使用相对路径
   plugins: [
     react(),
     tailwindcss(),
